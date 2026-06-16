@@ -1,0 +1,8 @@
+.env
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
+chromedriver.exe
+geckodriver.exe

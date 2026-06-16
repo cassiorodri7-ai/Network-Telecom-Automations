@@ -1,0 +1,5 @@
+discord.py
+pygetwindow
+python-dotenv
+
+#listagem de biblioteas utilizadas no projeto, para instalação via pip.
