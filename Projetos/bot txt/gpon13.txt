@@ -1,0 +1,108 @@
+1-2022275583 (itbs44a4e21c):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -21.74dBm (+-3dBm)
+		RSSI        : -26.02dBm (+-3dBm)
+	2-itbs44a4e61c:
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -21.25dBm (+-3dBm)
+		RSSI        : -25.93dBm (+-3dBm)
+	3-2021202219-Ribamar_Maia (fhtt01005263):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -21.87dBm (+-3dBm)
+		RSSI        : -24.98dBm (+-3dBm)
+	4-2021202230_Ana-Oestreich (fhtt01005265):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -25.85dBm (+-3dBm)
+		RSSI        : -30.84dBm (+-3dBm)
+	5-2021261790-Antonio_Jose (fhtt01005270):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -28.23dBm (+-3dBm)
+		RSSI        : -30.11dBm (+-3dBm)
+	6-ztegd878c15d:
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -21.67dBm (+-3dBm)
+		RSSI        : -26.88dBm (+-3dBm)
+	7-2022288423-Colbert_Elias-GP101 (fhtt13324598):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -21.61dBm (+-3dBm)
+		RSSI        : -26.24dBm (+-3dBm)
+	8-2020167918-GP213 (xgtc0a216463):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -20.55dBm (+-3dBm)
+		RSSI        : -26.11dBm (+-3dBm)
+	9-2026910870 (tplgdd883138):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -24.31dBm (+-3dBm)
+		RSSI        : -29.30dBm (+-3dBm)
+	10-fhtt01005260:
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -30.95dBm (+-3dBm)
+		RSSI        : -31.87dBm (+-3dBm)
+	11-2026909723 (tplgbc6b3240):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -24.43dBm (+-3dBm)
+		RSSI        : -28.31dBm (+-3dBm)
+	12-2020153217-Nilson_Ouverney (prks00c45818):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -23.46dBm (+-3dBm)
+		RSSI        : -27.16dBm (+-3dBm)
+	13-2020155034-Christiane (prks00c4596e):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -23.18dBm (+-3dBm)
+		RSSI        : -27.16dBm (+-3dBm)
+	15-2022322665 (tk016a019ae1):
+		Status      : INACTIVE
+		Power Level : NO SIGNAL
+		RSSI        : NO SIGNAL
+	16-2021202245-Denise_Machado (xgtc0a211954):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -24.55dBm (+-3dBm)
+		RSSI        : -28.70dBm (+-3dBm)
+	17-2024673726-GP813 (itbs44663daf):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -20.13dBm (+-3dBm)
+		RSSI        : -24.47dBm (+-3dBm)
+	20-2021238586 (tplg6262ef90):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -27.69dBm (+-3dBm)
+		RSSI        : -28.86dBm (+-3dBm)
+	21-2021202237-Marcelo_Costa (xgtc0a217481):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -21.02dBm (+-3dBm)
+		RSSI        : -27.10dBm (+-3dBm)
+	22-2021214999-Jose_Louro (xgtc0a219770):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -21.48dBm (+-3dBm)
+		RSSI        : -26.78dBm (+-3dBm)
+	23-2020179447-AnaMaria_Abreu (xgtc0a224233):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -26.98dBm (+-3dBm)
+		RSSI        : -28.86dBm (+-3dBm)
+	24-2022276913-Jose_Barbosa (fhtt13326698):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -23.37dBm (+-3dBm)
+		RSSI        : -27.21dBm (+-3dBm)
+	25-2025878090 (tplg6261d7d8):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -21.08dBm (+-3dBm)
+		RSSI        : -25.41dBm (+-3dBm)
+	26-2023502432-GP213 (itbs440ea59c):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -22.75dBm (+-3dBm)
+		RSSI        : -25.77dBm (+-3dBm)
+	28-2023446912-GP813 (frkw235c0d83):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -21.87dBm (+-3dBm)
+		RSSI        : -25.19dBm (+-3dBm)
+	29-2020167914-GP213 (itbsf16de248):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -22.07dBm (+-3dBm)
+		RSSI        : -26.29dBm (+-3dBm)
+	30-2020157893-GP101 (itbsf1773c86):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -22.14dBm (+-3dBm)
+		RSSI        : -25.73dBm (+-3dBm)
+	31-2022278366 (itbsf139dee7):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -22.22dBm (+-3dBm)
+		RSSI        : -24.72dBm (+-3dBm)

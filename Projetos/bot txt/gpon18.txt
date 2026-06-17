@@ -1,0 +1,80 @@
+2-2026935134 (tplgbc01b078):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -18.86dBm (+-3dBm)
+		RSSI        : -21.56dBm (+-3dBm)
+	3-2020169698 (tplgbc6b2dc0):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -20.22dBm (+-3dBm)
+		RSSI        : -22.84dBm (+-3dBm)
+	4-2019112490 (ztegd97a65b8):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -20.80dBm (+-3dBm)
+		RSSI        : -23.08dBm (+-3dBm)
+	5-201896146 (ztegdb058a8d):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -20.65dBm (+-3dBm)
+		RSSI        : -23.23dBm (+-3dBm)
+	6-201873646 (ztegd4c7585e):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -20.75dBm (+-3dBm)
+		RSSI        : -23.05dBm (+-3dBm)
+	7-2023465946 (tplg4fcf0978):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -20.75dBm (+-3dBm)
+		RSSI        : -23.42dBm (+-3dBm)
+	8-2021238409 (tplgbc6b8748):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -19.24dBm (+-3dBm)
+		RSSI        : -22.72dBm (+-3dBm)
+	9-201880830 (ztegda6149dc):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -20.75dBm (+-3dBm)
+		RSSI        : -23.62dBm (+-3dBm)
+	12-2021187326 (tplgbc6b8588):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -19.87dBm (+-3dBm)
+		RSSI        : -23.12dBm (+-3dBm)
+	13-2019100199 (itbs0a48954a):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -21.55dBm (+-3dBm)
+		RSSI        : -23.14dBm (+-3dBm)
+	14-2023469448 (itbs4469caa9):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -20.08dBm (+-3dBm)
+		RSSI        : -22.64dBm (+-3dBm)
+	15-2022353700 (itbsf19d8f14):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -20.08dBm (+-3dBm)
+		RSSI        : -21.84dBm (+-3dBm)
+	16-2022356672 (itbs0a77986f):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -20.50dBm (+-3dBm)
+		RSSI        : -23.37dBm (+-3dBm)
+	17-201875746 (ztegd1da5abc):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -20.17dBm (+-3dBm)
+		RSSI        : -22.50dBm (+-3dBm)
+	18-2020143110 (itbsf1a92040):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -20.45dBm (+-3dBm)
+		RSSI        : -22.90dBm (+-3dBm)
+	19-201764406 (tplgbc6b48c8):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -21.25dBm (+-3dBm)
+		RSSI        : -23.54dBm (+-3dBm)
+	20-2020181056 (tplgbc6b3330):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -20.81dBm (+-3dBm)
+		RSSI        : -24.29dBm (+-3dBm)
+	22-201873405 (tplgbc6b4ab8):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -20.41dBm (+-3dBm)
+		RSSI        : -23.44dBm (+-3dBm)
+	23-2019136477 (itbsf1a92046):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -19.28dBm (+-3dBm)
+		RSSI        : -22.11dBm (+-3dBm)
+	24-2023475519 (prks00c2d822):
+		Status      : ACTIVE (PROVISIONED)
+		Power Level : -20.91dBm (+-3dBm)
+		RSSI        : -21.89dBm (+-3dBm)
