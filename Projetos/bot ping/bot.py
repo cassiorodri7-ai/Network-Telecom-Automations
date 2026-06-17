@@ -8,7 +8,6 @@ from datetime import datetime
 import asyncio
 from dotenv import load_dotenv
 
-# Carrega as variáveis de ambiente do arquivo .env
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 
@@ -29,9 +28,13 @@ def organize_windows(window_titles, cols, width, height):
         except Exception:
             pass
 
+def close_windows(window_titles):
+    for title in window_titles:
+        os.system(f'taskkill /FI "WINDOWTITLE eq {title}*" /T /F >nul 2>&1')
+
 async def get_ping_stats(ip):
     process = await asyncio.create_subprocess_shell(
-        f"ping {ip} -n 30",
+        f"ping {ip} -n 30 -w 1000",
         stdout=asyncio.subprocess.PIPE,
         stderr=asyncio.subprocess.PIPE
     )
@@ -44,16 +47,19 @@ async def get_ping_stats(ip):
     
     for line in lines:
         clean_line = line.rstrip("\r")
+        
         if "Pacotes:" in clean_line or "Packets:" in clean_line:
             capture = True
-        
+            
         if capture:
-            if clean_line.strip():
-                summary_lines.append(clean_line)
-            if "Mínimo =" in clean_line or "Minimum =" in clean_line:
-                break
-                
-    summary_text = "\n".join(summary_lines)
+            if clean_line.strip(): 
+                summary_lines.append(clean_line.strip())
+
+    if not summary_lines:
+        summary_text = "    Pacotes: Enviados = 30, Recebidos = 0, Perdidos = 30 (100% de perda)"
+    else:
+        summary_text = "\n".join(summary_lines)
+        
     return f"--- Estatísticas do Ping para {ip} ---\n{summary_text}\n\n"
 
 @bot.command()
@@ -82,7 +88,7 @@ async def pings(ctx, *, ips_str: str):
     opened_titles = []
     for ip in ip_list:
         title = f"Ping {ip}"
-        subprocess.Popen(f'start "{title}" cmd /c ping {ip} -n 30', shell=True)
+        subprocess.Popen(f'start "{title}" cmd /c ping {ip} -n 30 -w 1000', shell=True)
         opened_titles.append(title)
         time.sleep(0.5)
 
@@ -93,7 +99,8 @@ async def pings(ctx, *, ips_str: str):
     tasks = [get_ping_stats(ip) for ip in ip_list]
     results = await asyncio.gather(*tasks)
 
-    # Ajuste: Cria a pasta "Relatorios" no mesmo diretório do bot.py
+    close_windows(opened_titles)
+
     base_dir = os.path.dirname(os.path.abspath(__file__))
     report_dir = os.path.join(base_dir, "Relatorios")
     os.makedirs(report_dir, exist_ok=True)
@@ -129,6 +136,6 @@ async def pings(ctx, *, ips_str: str):
 
 if __name__ == "__main__":
     if not TOKEN:
-        print("Erro: O Token do Discord não foi encontrado. Verifique seu arquivo .env")
+        pass
     else:
         bot.run(TOKEN)
